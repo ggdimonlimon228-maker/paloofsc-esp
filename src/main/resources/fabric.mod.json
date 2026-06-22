@@ -1,0 +1,17 @@
+{
+    "schemaVersion": 1,
+    "id": "paloofsc_esp",
+    "version": "PESS_ESP_v1.0",
+    "name": "Paloofsc ESP",
+    "description": "THE PESS SEES ALL — ESP overlay. P — toggle, RShift — menu.",
+    "authors": ["paloofsc"],
+    "environment": "client",
+    "entrypoints": {
+        "client": ["paloofsc.esp.ESPModClient"]
+    },
+    "depends": {
+        "fabricloader": ">=0.16.7",
+        "fabric-api": ">=0.139.4",
+        "minecraft": "~1.21.11"
+    }
+}
